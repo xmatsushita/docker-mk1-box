@@ -9,7 +9,7 @@ RUN rpm -Uvh http://rpms.remirepo.net/enterprise/remi-release-5.rpm
 RUN yum -y upgrade
 
 # setup tools
-RUN yum install -y git make gcc gcc-c++ openssl openssl-devel readline-devel ftp unzip libxml2-devel libxslt-devel
+RUN yum install -y git make gcc gcc-c++ openssl openssl-devel readline-devel ftp unzip libxml2-devel libxslt-devel memcached
 RUN yum install -y ImageMagick6 ImageMagick6-devel ImageMagick6-c++ ImageMagick6-c++-devel --enablerepo=remi
 
 # setup mysql 5.5.54-1
