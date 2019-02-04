@@ -44,3 +44,5 @@ RUN gem install net-ssh -v=2.9.2 --no-ri --no-rdoc
 RUN gem install net-sftp -v=2.1.2 --no-ri --no-rdoc
 RUN gem install ruby-debug -v=0.10.4 --no-ri --no-rdoc
 RUN gem install mysql -v=2.8.1 --no-ri --no-rdoc
+RUN gem install rspec -v=1.3.2 --no-ri --no-rdoc
+RUN gem install rspec-rails -v=1.3.4 --no-ri --no-rdoc
